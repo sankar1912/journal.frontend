@@ -1,8 +1,8 @@
-import React from 'react';
 import Verification from '@/components/verification';
-function page({params}) {
+async function  page({params}) {
+  const {token} = await params;
   return (
-    <Verification token = {params.token}  />
+    <Verification token={token}  />
     );
 }
 

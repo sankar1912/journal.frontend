@@ -28,22 +28,20 @@ export const signUp = (userData, messageDoc="") => async (dispatch) => {
     dispatch(setMessage(data.message));
   } catch (err) {
     console.error("Error:", err.message);
-    dispatch(setMessage(err.message || "Failed to register"));
+    dispatch(setMessage(err.response.data.message || "Failed to register"));
   }
 };
 
 export const signin = (userData) => async (dispatch) => {
   dispatch(loginRequest);
-  let res = "";
   try {
-    res = await axios.post("/api/v1/user/login", userData, {
+   const res = await axios.post("/api/v1/user/login", userData, {
       withCredentials: true,
     });
     dispatch(loginSuccess(res.data.user));
     dispatch(setMessage(res.data.message));
   } catch (err) {
-    console.error(err);
-    dispatch(setMessage(res.data.message));
+    dispatch(setMessage(err.response.data.message));
   }
 };
 
@@ -58,11 +56,15 @@ export const loadUser = () => async (dispatch) => {
 
 export const verifyAccount = (token) => async (dispatch) => {
   dispatch(loginRequest);
-  const res = await axios.get(`/api/v1/user/verify/${token}`, {
+  try{
+    const res = await axios.get(`/api/v1/user/verify/${token}`, {
     withCredentials: true,
   });
   dispatch(loginSuccess(res.data.user));
   dispatch(setMessage(res.data.message));
+  }catch(err){
+    dispatch(setMessage(err.response.data.message))
+  }
 };
 
 export const modifyUser = (userData) => async (dispatch) => {
@@ -76,11 +78,16 @@ export const modifyUser = (userData) => async (dispatch) => {
 
 export const logOut = () => async (dispatch) => {
   dispatch(loginRequest);
-  const res = await axios.get("/api/v1/user/logout", {
+  try{
+    const res = await axios.get("/api/v1/user/logout", {
     withCredentials: true,
   });
-  dispatch(loginSuccess(""));
+  dispatch(loginSuccess({}));
   dispatch(setMessage(res.data.message));
+  } catch (err) {
+    dispatch(loginSuccess({}));
+    dispatch(setMessage("Error occured"));
+  }
 };
 
 export const getAuthorDetailsByEmail = (email) => async (dispatch) => {
