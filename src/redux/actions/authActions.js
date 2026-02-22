@@ -3,7 +3,7 @@ import { findSuccess, loginRequest, loginSuccess } from "../slices/authSlice";
 import { setMessage } from "../slices/notificationSlice";
 import { setSpecificJournal } from "../slices/journalSlice";
 
-export const signUp = (userData, messageDoc) => async (dispatch) => {
+export const signUp = (userData, messageDoc="") => async (dispatch) => {
   //console.log("Sending:", userData);
   const { message } = messageDoc;
   try {
