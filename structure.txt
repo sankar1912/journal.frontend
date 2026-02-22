@@ -1,0 +1,19 @@
+/src
+ ├── app
+ │    ├── page.tsx               # Home page (list journals)
+ │    ├── login/page.tsx         # Login page
+ │    ├── register/page.tsx      # Register page
+ │    ├── verify/page.tsx        # Email verification
+ │    ├── profile/page.tsx       # User profile page
+ │    ├── submit/page.tsx        # Journal submission form
+ │    ├── submissions/page.tsx   # Track my submissions
+ │    ├── journal/[id]/page.tsx  # Detailed journal view
+ │    ├── admin                  # Admin dashboard
+ │    │     ├── page.tsx         # Admin home
+ │    │     ├── users/page.tsx   # Manage users
+ │    │     ├── submissions/page.tsx # Approve/Reject papers
+ ├── components                  # Reusable UI components (Navbar, Card, Button, etc.)
+ ├── redux                       # Redux slices and store
+ ├── lib                         # Axios instances and API services
+ ├── utils                       # Helper functions
+ ├── styles                      # Global styles

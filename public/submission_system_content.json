@@ -1,0 +1,123 @@
+[
+
+  {
+    "title": "Abstracting and Indexing",
+    "type": "heading"
+  },
+  {
+    "title": "Article Processing Charge",
+    "content": "All articles published in our journal are subject to an article processing charge (APC).\nThe APC covers the costs of peer review, editing, hosting, and archiving.\nThere are no submission charges."
+  },
+  {
+    "title": "Editorial workflow",
+    "content": "The editorial workflow includes the following steps:\n- Initial submission and screening\n- Peer review by subject matter experts\n- Editorial decision and revisions\n- Final acceptance and publication"
+  },
+  {
+    "title": "Article types",
+    "content": "We accept a range of article types including:\n- Original Research Articles\n- Review Articles\n- Case Reports\n- Short Communications\n- Letters to the Editor"
+  },
+  {
+    "title": "Language",
+    "content": "Submissions must be written in English. Authors are encouraged to seek professional language editing services if necessary."
+  },
+  {
+    "title": "Copyright",
+    "content": "Authors retain the copyright of their work and grant the journal a license to publish."
+  },
+  {
+    "title": "Open Access",
+    "content": "All articles are published under open access terms, ensuring free and unlimited access to scholarly research."
+  },
+  {
+    "title": "Special Issues",
+    "content": "Special issues are thematic collections of articles. Proposals for guest-edited issues are welcome."
+  },
+  {
+    "title": "Journal ownership",
+    "type": "heading"
+  },
+  {
+    "title": "Manuscript",
+    "type": "heading"
+  },
+  {
+    "title": "Cover letter",
+    "content": "Include a cover letter summarizing the importance and novelty of your submission."
+  },
+  {
+    "title": "Article structure",
+    "content": "Your manuscript should follow the structure: Abstract, Introduction, Methods, Results, Discussion, References."
+  },
+  {
+    "title": "Graphical abstract",
+    "content": "Provide a visual summary of your article's key findings or methodology."
+  },
+  {
+    "title": "Tables",
+    "content": "Ensure tables are clearly labeled and referenced in the text."
+  },
+  {
+    "title": "Supplementary material",
+    "content": "Include additional data, images, or figures that support the article but are not essential in the main text."
+  },
+  {
+    "title": "Studies in animals and humans",
+    "content": "Ethical approval is required for all studies involving animals or human participants."
+  },
+  {
+    "title": "Informed consent and patient details",
+    "content": "Informed consent must be obtained from patients before publication."
+  },
+  {
+    "title": "Clinical trial results",
+    "content": "Clinical trials must be registered, and results reported in accordance with CONSORT guidelines."
+  },
+  {
+    "title": "Research data",
+    "content": "Authors are encouraged to share their datasets in public repositories and include a data availability statement."
+  },
+  {
+    "title": "Ethics and Policy",
+    "type": "heading"
+  },
+  {
+    "title": "Responsible use of AI language models (ChatGPT)",
+    "content": "Clearly disclose the use of AI tools like ChatGPT in writing or analysis and ensure human oversight."
+  },
+  {
+    "title": "Editorial policy",
+    "content": "Editorial decisions are made independently, without influence from sponsors or third parties."
+  },
+  {
+    "title": "Publishing ethics",
+    "content": "We follow COPE guidelines on publication ethics and malpractice."
+  },
+  {
+    "title": "Peer-Review process",
+    "type": "heading"
+  },
+  {
+    "title": "Introduction",
+    "content": "The peer-review process ensures the validity, quality, and originality of submitted articles."
+  },
+  {
+    "title": "How to join the reviewer team",
+    "content": "Experts can apply to join the reviewer pool by submitting their credentials and areas of expertise."
+  },
+  {
+    "title": "Special attention",
+    "content": "Certain submissions may receive expedited review due to urgency or impact."
+  },
+  {
+    "title": "Publisher Information",
+    "type": "heading"
+  },
+  {
+    "title": "About us",
+    "content": "We are an academic publisher committed to disseminating high-quality, peer-reviewed research."
+  },
+  {
+    "title": "Contact us",
+    "content": "For inquiries, email support@journalpublisher.org or visit our contact page."
+  }
+]
